@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:ToDoList8C.ViewModels"
+             x:DataType="viewmodels:AddUpdateItemPageViewModel"
+             Title="Agrega/Actualiza una Tarea"
+             x:Class="ToDoList8C.Views.AddUpdateItem"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Nombre de Tarea" Text="{Binding Tododeteail.NombreTarea}"/>
+            <Entry Placeholder="Descripción de Tarea" Text="{Binding Tododeteail.Descripcion}"/>
+            <Entry Placeholder="Estatus de Tarea" Text="{Binding Tododeteail.Estatus}"/>
+
+            <Button Text="Guardar tarea" Command="{Binding SaveItemCommand}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

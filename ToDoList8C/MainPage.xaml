@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoList8C.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido a ToDoList 8C!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Comienza a usar tu ToDoList!" FontSize="Title" Padding="30,10,30,10"/>
+        <Button Text="Agregar Tarea" x:Name="addItem" Clicked="addItem_Clicked" />
+        <Button Text="Ver todas las tareas" x:Name="showItem" Clicked="showItem_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

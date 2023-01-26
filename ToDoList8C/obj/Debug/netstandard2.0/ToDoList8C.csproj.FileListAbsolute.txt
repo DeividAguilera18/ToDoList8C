@@ -1,0 +1,17 @@
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\bin\Debug\netstandard2.0\ToDoList8C.deps.json
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\bin\Debug\netstandard2.0\ToDoList8C.dll
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\bin\Debug\netstandard2.0\ref\ToDoList8C.dll
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\bin\Debug\netstandard2.0\ToDoList8C.pdb
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\Views\AddUpdateItem.xaml.g.cs
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\Views\ItemList.xaml.g.cs
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.AssemblyInfo.cs
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.dll
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ref\ToDoList8C.dll
+C:\Users\david\Desktop\ToDoList8C\ToDoList8C\obj\Debug\netstandard2.0\ToDoList8C.pdb

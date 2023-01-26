@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:ToDoList8C.ViewModels"
+             xmlns:models="clr-namespace:ToDoList8C.Models"
+             x:DataType="viewmodels:ItemListPageView"
+             Title="Lista de Tareas"
+             x:Class="ToDoList8C.Views.ItemList">
+    <ContentPage.Content>
+        <StackLayout Margin="10,1,10,1">
+            <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="True" />
+            <RefreshView Command="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" >
+                <CollectionView ItemsSource="{Binding Items}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:IteemModel">
+                            <StackLayout Margin="10,5,10,0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Nombre de la Tarea: " />
+                                    <Label Text="{Binding NombreTarea}" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Descripción: " />
+                                    <Label Text="{Binding Descripcion}" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Estatus: " />
+                                    <Label Text="{Binding Estatus}" />
+                                </StackLayout>
+                                <BoxView HeightRequest="1" Color="Gray" />
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewmodels:ItemListPageView}},Path=SelectedItemCommand}" CommandParameter="{Binding .}" />
+                                </StackLayout.GestureRecognizers>
+                             </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
